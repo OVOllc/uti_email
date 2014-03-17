@@ -95,13 +95,13 @@ table.main{
 }
 
 table.columns .text-pad, table.column .text-pad{
-  padding:0 40px;
+  padding:0 40px 25px 40px;
 }
 
 table.columns .disclaimer{
   background: #fff;
   padding-top:25px;
-  padding-bottom:20px;
+  padding-bottom:26px;
 }
 
 td.footer-links-wrapper{
