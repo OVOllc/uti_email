@@ -28,7 +28,7 @@ blockquote{
   border-bottom:5px solid #e6e6e6;
   font-size:16px;
   line-height: 22px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 blockquote p{
