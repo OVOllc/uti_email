@@ -138,6 +138,15 @@ td.footer-links-wrapper{
   float:right;
 }
 
+.snippet p{
+  font-size:12px;
+  line-height: 14px;
+  color:#a6a6a6;
+  margin-bottom:20px;
+  margin-top:15px;
+  text-align: center;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -151,6 +160,11 @@ td.footer-links-wrapper{
     font-size:14px !important;
     line-height: 21px !important;
   }
+
+.snippet p{
+  font-size:12px !important;
+  line-height: 14px !important;
+}
 
   blockquote{
     font-size:14px !important;
@@ -196,5 +210,15 @@ td.footer-links-wrapper{
 
   table[class="body"] .columns td.footer-links span, table[class="body"] .column td.footer-links span{
     display:none;
+  }
+
+  table.columns .text-pad, table.column .text-pad{
+    padding-left:10px !important;
+    padding-right:10px !important;
+  }
+
+  blockquote p, blockquote footer{
+    padding-left:0 !important;
+    padding-right:0 !important;
   }
 }
