@@ -16,7 +16,7 @@ h3{
   color:#a6a6a6;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom:5px;
+  margin-bottom:10px;
 }
 h3.blockquote-title{
   padding-top:17px;
@@ -32,6 +32,7 @@ blockquote{
 }
 
 blockquote p{
+  font-size:16px;
   padding:15px 20px;
   margin:0;
 }
@@ -99,8 +100,8 @@ table.columns .text-pad, table.column .text-pad{
 
 table.columns .disclaimer{
   background: #fff;
-  padding-top:28px;
-  padding-bottom:26px;
+  padding-top:25px;
+  padding-bottom:20px;
 }
 
 td.footer-links-wrapper{
