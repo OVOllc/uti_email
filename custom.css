@@ -29,16 +29,21 @@ blockquote{
   font-size:16px;
   line-height: 22px;
   text-transform: none;
+  display:table;
+}
+
+blockquote div{
+  display:table-cell;
+  padding:15px 20px;
 }
 
 blockquote p{
   font-size:16px;
-  padding:15px 20px;
-  margin:0;
+  padding:0;
+  margin:0 0 20px 0;
 }
 
 blockquote footer{
-  padding:0 20px 15px 20px;
 }
 
 small{
@@ -217,7 +222,7 @@ td.footer-links-wrapper{
     padding-right:10px !important;
   }
 
-  blockquote p, blockquote footer{
+  blockquote div, blockquote footer{
     padding-left:0 !important;
     padding-right:0 !important;
   }
